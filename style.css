@@ -1,0 +1,24 @@
+div.header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(assest/header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.navbar{
+
+    min-height: 100px;
+}
+div.header-content{
+    margin-top: 200px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button.btn{
+    background-color: red;
+}
+
